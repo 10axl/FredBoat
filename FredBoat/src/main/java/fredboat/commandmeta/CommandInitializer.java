@@ -154,6 +154,7 @@ public class CommandInitializer {
         funModule.registerCommand(new JokeCommand("joke", "jk"));
         funModule.registerCommand(new RiotCommand("riot"));
         funModule.registerCommand(new SayCommand("say"));
+        funModule.registerCommand(new ImCommand("im", "i'm"));
 
         /* Other Anime Discord, Sergi memes or any other memes
            saved in this album https://imgur.com/a/wYvDu        */
